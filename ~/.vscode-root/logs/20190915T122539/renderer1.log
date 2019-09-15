@@ -1,0 +1,2 @@
+[2019-09-15 14:03:47.803] [renderer1] [error] Error: [File Watcher (nswf)] Inotify limit reached (ENOSPC)
+[2019-09-15 14:03:47.819] [renderer1] [error] [File Watcher (nswf)] Inotify limit reached (ENOSPC)

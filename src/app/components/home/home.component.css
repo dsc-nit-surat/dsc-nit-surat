@@ -1,0 +1,18 @@
+
+
+.description{
+    position: absolute;
+    top: 50% !important;
+    left: 10% !important;
+    z-index: 3;
+}
+
+.image {
+    position: absolute;
+    width: 800px;
+    bottom: 0%;
+    right: 20%;
+    -ms-transform: translateX(20%) translateY(-1%);
+    -webkit-transform: translate(20%,-1%);
+    transform: translate(20%,-1%);
+}

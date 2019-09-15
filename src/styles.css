@@ -1,1 +1,155 @@
 /* You can add global styles to this file, and also import other style files */
+
+html * {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+}
+
+.maroon {
+    color: #442C2E !important;
+}
+
+.heading {
+    font-size: 4rem;
+}
+
+.subheading {
+    font-size: 3rem;
+}
+
+.content {
+    font-size: 2rem;
+}
+
+.caption {
+    font-size: 1.5rem;
+}
+
+.captionb {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.mrg0 {
+    margin: 0px;
+}
+
+.mrg0-TB {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.mrg2-TB {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.mrg4-TB {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.mrg8-TB {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.mrg16-TB {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.mrg24-TB {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.mrg0-RL {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.mrg2-RL {
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.mrg4-RL {
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.mrg8-RL {
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.mrg16-RL {
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.mrg24-RL {
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.mrg2 {
+    margin: 2px;
+}
+
+.mrg4 {
+    margin: 4px;
+}
+
+.mrg8 {
+    margin: 8px;
+}
+
+.mrg16 {
+    margin: 16px;
+}
+
+.mrg24 {
+    margin: 24px;
+}
+
+.pd0 {
+    padding: 0px;
+}
+
+.pd2 {
+    padding: 2px;
+}
+
+.pd4 {
+    padding: 4px;
+}
+
+.pd8 {
+    padding: 8px;
+}
+
+.pd16 {
+    padding: 16px;
+}
+
+.pd24 {
+    padding: 24px;
+}
+
+.cursor {
+    cursor: pointer !important;
+}
+
+
+
+
+
+
+
+
