@@ -9,29 +9,54 @@ a {
     text-decoration: none;
 }
 
-.maroon {
-    color: #442C2E !important;
+.red {
+    color: #DB4437;
 }
+
+.green {
+   color: #0F9D58; 
+}
+
+.yellow {
+    color: #F4B400;
+}
+
+.blue {
+    color: #4285F4;
+}
+
+.bg-700 {
+    color: #455A64;
+}
+
+.bg-800 {
+   color: #37474F; 
+}
+
+.bg-900 {
+    color: #263238;
+}
+
 
 .heading {
-    font-size: 4rem;
-}
-
-.subheading {
-    font-size: 3rem;
-}
-
-.content {
     font-size: 2rem;
 }
 
-.caption {
+.subheading {
+    font-size: 1.75rem;
+}
+
+.content {
     font-size: 1.5rem;
+}
+
+.caption {
+    font-size: 1.25rem;
 }
 
 .captionb {
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 .mrg0 {

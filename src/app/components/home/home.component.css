@@ -1,18 +1,25 @@
-
+.cover {
+    max-width: 1080px !important;
+    height: 100% !important;
+}
 
 .description{
     position: absolute;
-    top: 50% !important;
+    top: 40% !important;
     left: 10% !important;
     z-index: 3;
 }
 
+.underline {
+    width: 50px;
+    height: 5px;
+    background: #4285F4;
+}
+
 .image {
     position: absolute;
-    width: 800px;
-    bottom: 0%;
-    right: 20%;
-    -ms-transform: translateX(20%) translateY(-1%);
-    -webkit-transform: translate(20%,-1%);
-    transform: translate(20%,-1%);
+    max-height: 700px !important;
+    max-width: 700px !important;
+    right: 2%;
+    top: 30%;
 }
