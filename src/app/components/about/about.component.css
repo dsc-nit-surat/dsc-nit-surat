@@ -11,3 +11,31 @@
     right: 10% !important;
     z-index: 3;
 }
+
+.whatimage {
+    position: absolute;
+    max-height: 400px !important;
+    max-width: 400px !important;
+    right: 20%;
+    top: 15%;
+}
+
+.whyimage {
+    position: absolute;
+    max-height: 450px !important;
+    max-width: 450px !important;
+    left: 10%;
+    bottom: -10%;
+}
+
+.underline-y {
+    width: 50px;
+    height: 5px;
+    background: #F4B400;
+}
+
+.underline-g {
+    width: 50px;
+    height: 5px;
+    background: #0F9D58;
+}

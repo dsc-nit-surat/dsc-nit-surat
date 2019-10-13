@@ -93,6 +93,16 @@ a {
     margin-bottom: 24px;
 }
 
+.mrg32-TB {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.mrg40-TB {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 .mrg0-RL {
     margin-right: 0px;
     margin-left: 0px;
@@ -123,6 +133,16 @@ a {
     margin-left: 24px;
 }
 
+.mrg32-RL {
+    margin-right: 32px;
+    margin-left: 32px;
+}
+
+.mrg40-RL {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
 .mrg2 {
     margin: 2px;
 }
@@ -141,6 +161,14 @@ a {
 
 .mrg24 {
     margin: 24px;
+}
+
+.mrg32 {
+    margin: 32px;
+}
+
+.mrg40 {
+    margin: 40px;
 }
 
 .pd0 {
