@@ -1,7 +1,10 @@
 .background {
-    height: 100px !important;
+    height: 80px !important;
     width: 100% !important;
     background: #ffffff !important;
+    position: fixed;
+    top: 0%;
+    z-index: 3;
 }
 
 .header{
@@ -23,3 +26,29 @@
     position: fixed;
     z-index: 3 !important;
 }
+
+.underline-b {
+    width: 30px;
+    height: 5px;
+    background: #4285F4;
+}
+
+.underline-r {
+    width: 30px;
+    height: 5px;
+    background: #DB4437;
+}
+
+.underline-g {
+    width: 30px;
+    height: 5px;
+    background: #0F9D58;
+}
+
+.underline-y {
+    width: 30px;
+    height: 5px;
+    background: #F4B400;
+}
+
+

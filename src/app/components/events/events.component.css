@@ -10,3 +10,8 @@
 .card-image {
     height: 200px !important;
 }
+
+.card-usp {
+    max-width: 25px;
+    max-height: 25px;
+}

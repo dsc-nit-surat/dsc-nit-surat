@@ -10,12 +10,17 @@ import { EventsComponent } from './components/events/events.component';
 import { TeamComponent } from './components/team/team.component';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
-import {MatCardModule} from '@angular/material/card';
+import { MatCardModule } from '@angular/material/card';
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import 'hammerjs'; 
+
+
 
 
 @NgModule({
   declarations: [
-    AppComponent, 
+    AppComponent,
     AboutComponent,
     HeaderComponent,
     HomeComponent,
@@ -26,7 +31,9 @@ import {MatCardModule} from '@angular/material/card';
     BrowserModule,
     AppRoutingModule,
     FlexLayoutModule,
-    MatCardModule
+    MatCardModule,
+    MatTooltipModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
