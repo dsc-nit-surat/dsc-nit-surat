@@ -13,9 +13,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatCardModule } from '@angular/material/card';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import 'hammerjs'; 
-
-
+import 'hammerjs';
+import { MatMenuModule } from '@angular/material/menu';
 
 
 @NgModule({
@@ -33,7 +32,8 @@ import 'hammerjs';
     FlexLayoutModule,
     MatCardModule,
     MatTooltipModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

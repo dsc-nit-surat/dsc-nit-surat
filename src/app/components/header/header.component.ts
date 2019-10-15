@@ -14,4 +14,6 @@ export class HeaderComponent implements OnInit {
 
   selectedItem = 'none';
 
+  selected = 'none'
+
 }

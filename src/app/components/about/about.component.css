@@ -20,12 +20,22 @@
     top: 15%;
 }
 
+.whatimage-m {
+    max-height: 400px !important;
+    max-width: 400px !important;
+}
+
 .whyimage {
     position: absolute;
     max-height: 450px !important;
     max-width: 450px !important;
     left: 10%;
     bottom: -10%;
+}
+
+.whyimage-m {
+    max-height: 450px !important;
+    max-width: 450px !important;
 }
 
 .underline-y {

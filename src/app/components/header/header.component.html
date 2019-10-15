@@ -1,4 +1,4 @@
-<div class="background">
+<div class="background" fxHide.lt-md fxShow>
     <div fxLayout="row" class="logo cursor" routerLink="/">
         <img class="image mrg16" src="assets/images/usps/logo.jpeg" alt="Logo">
         <p class="content bg-800">DSC - NIT Surat</p>
@@ -9,12 +9,14 @@
             Home
             <div *ngIf="selectedItem == 'home'" class="underline-r mrg2-TB"></div>
         </a>
-        <a fxLayout="column" class="bg-800 content cursor mrg24" [routerLink]="['about']" (click)="selectedItem = 'about'">
+        <a fxLayout="column" class="bg-800 content cursor mrg24" [routerLink]="['about']"
+            (click)="selectedItem = 'about'">
             About
             <div *ngIf="selectedItem == 'about'" class="underline-b mrg2-TB"></div>
         </a>
 
-        <a fxLayout="column" class="bg-800 content cursor mrg24" [routerLink]="['events']" (click)="selectedItem = 'events'">
+        <a fxLayout="column" class="bg-800 content cursor mrg24" [routerLink]="['events']"
+            (click)="selectedItem = 'events'">
             Events
             <div *ngIf="selectedItem == 'events'" class="underline-g mrg2-TB"></div>
         </a>
@@ -23,4 +25,33 @@
             <div *ngIf="selectedItem == 'team'" class="underline-y mrg2-TB"></div>
         </a>
     </div>
+</div>
+
+<div class="background" fxShow.lt-md fxHide>
+    <div fxLayout="row" class="logo cursor" routerLink="/">
+        <img class="image mrg16" src="assets/images/usps/logo.jpeg" alt="Logo">
+        <p class="content bg-800">DSC - NIT Surat</p>
+    </div>
+
+    <div mat-button class="header mrg24" *ngIf="selected == 'none'" (click)="selected='menu'"><img class="icon"
+            src="assets/images/usps/menu-button.svg"></div>
+    <div mat-button class="header mrg24" *ngIf="selected == 'menu'" fxShow (click)="selected='none'"><img class="icon"
+            src="assets/images/usps/cancel.svg"></div>
+
+
+    <div class="mrg80-TB" *ngIf="selected == 'menu'" class="menu-items">
+        <div mat-menu-item class="bg-800 sm cursor mrg24" [routerLink]="['']"
+            (click)="selectedItem = 'home'; selected = 'none'">
+            Home</div>
+        <div mat-menu-item class="bg-800 sm cursor mrg24" [routerLink]="['about']"
+            (click)="selectedItem = 'about'; selected = 'none'">
+            About</div>
+        <div mat-menu-item class="bg-800 sm cursor mrg24" [routerLink]="['events']"
+            (click)="selectedItem = 'events'; selected = 'none'">
+            Events</div>
+        <div mat-menu-item class="bg-800 sm cursor mrg24" [routerLink]="['']"
+            (click)="selectedItem = 'team' ;selected = 'none'">
+            Team</div>
+    </div>
+
 </div>

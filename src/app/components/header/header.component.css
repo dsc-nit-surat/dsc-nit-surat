@@ -51,4 +51,18 @@
     background: #F4B400;
 }
 
+.icon {
+    max-width: 30px;
+
+}
+
+.menu-items {
+    position: absolute;
+    right: 10%;
+    margin-top: 80px;
+    z-index: 5;
+    max-width: 400px !important;
+    background: #ffffff;
+}
+
 
