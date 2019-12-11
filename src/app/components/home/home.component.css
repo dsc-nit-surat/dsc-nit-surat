@@ -1,6 +1,6 @@
-.cover {
-    max-width: 1080px !important;
-    height: 100% !important;
+.layout{
+    width: 1080px !important;
+    height: 80% !important;
 }
 
 .description{
@@ -17,11 +17,8 @@
 }
 
 .image {
-    position: absolute;
-    max-height: 700px !important;
-    max-width: 700px !important;
-    right: 2%;
-    top: 30%;
+    max-height: 1080px !important;
+    max-width: 1080px !important;
 }
 
 .icon {
