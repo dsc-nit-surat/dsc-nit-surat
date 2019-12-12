@@ -1,23 +1,6 @@
-.what{
-    position: absolute;
-    top: 30% !important;
-    left: 10% !important;
-    z-index: 3;
-}
-
-.why{
-    position: absolute;
-    top: 70% !important;
-    right: 10% !important;
-    z-index: 3;
-}
-
 .whatimage {
-    position: absolute;
-    max-height: 400px !important;
-    max-width: 400px !important;
-    right: 20%;
-    top: 15%;
+    max-height: 1080px !important;
+    max-width: 1080px !important;
 }
 
 .whatimage-m {
@@ -26,11 +9,8 @@
 }
 
 .whyimage {
-    position: absolute;
-    max-height: 450px !important;
-    max-width: 450px !important;
-    left: 10%;
-    bottom: -10%;
+  max-height: 1080px !important;
+  max-width: 1080px !important;
 }
 
 .whyimage-m {
