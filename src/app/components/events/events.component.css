@@ -4,14 +4,13 @@
 
 .card {
     background: #ECEFF1;
-    
 }
 
 .card-image {
-    height: 200px !important;
+    height: 70% !important;
 }
 
 .card-usp {
-    max-width: 25px;
-    max-height: 25px;
+    max-width: 30%;
+    max-height: 30%;
 }
