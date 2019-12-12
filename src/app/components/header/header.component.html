@@ -1,26 +1,27 @@
+<!-- Desktop version -->
 <div class="background" fxHide.lt-md fxShow>
     <div fxLayout="row" class="logo cursor" routerLink="/">
         <img class="image mrg16" src="assets/images/usps/logo.jpeg" alt="Logo">
-        <p class="content bg-800">DSC - NIT Surat</p>
+        <p class="heading bg-800">DSC - NIT Surat</p>
     </div>
 
     <div fxLayout="row" class="header">
-        <a fxLayout="column" class="bg-800 content cursor mrg24" [routerLink]="['']" (click)="selectedItem = 'home'">
+        <a fxLayout="column" class="bg-800 heading cursor mrg24" [routerLink]="['']" (click)="selectedItem = 'home'">
             Home
             <div *ngIf="selectedItem == 'home'" class="underline-r mrg2-TB"></div>
         </a>
-        <a fxLayout="column" class="bg-800 content cursor mrg24" [routerLink]="['about']"
+        <a fxLayout="column" class="bg-800 heading cursor mrg24" [routerLink]="['about']"
             (click)="selectedItem = 'about'">
             About
             <div *ngIf="selectedItem == 'about'" class="underline-b mrg2-TB"></div>
         </a>
 
-        <a fxLayout="column" class="bg-800 content cursor mrg24" [routerLink]="['events']"
+        <a fxLayout="column" class="bg-800 heading cursor mrg24" [routerLink]="['events']"
             (click)="selectedItem = 'events'">
             Events
             <div *ngIf="selectedItem == 'events'" class="underline-g mrg2-TB"></div>
         </a>
-        <a fxLayout="column" class="bg-800 content cursor mrg24">
+        <a fxLayout="column" class="bg-800 heading cursor mrg24">
             Team
             <div *ngIf="selectedItem == 'team'" class="underline-y mrg2-TB"></div>
         </a>
